@@ -1,0 +1,73 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  background: rgba(0,0,0, 0.5);
+}
+
+.ModalContent {
+  padding: 25px;
+  background: white;
+  border-radius: 16px;
+  min-width: 250px;
+  max-width: 70vw;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal_main {
+  display: flex;
+  align-items: center;
+}
+
+.modal_main .hard_word {
+  display: block;
+  height: 50px;
+  border: 0;
+}
+
+.modal_main img {
+  display: block;
+  margin-left: 20px;
+  height: 150px;
+  border: 2px solid gray;
+}
+
+.Modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.modal_example p {
+  margin: 0;
+  padding: 0;
+}
+
+.modal_title p,
+.modal_title h1,
+.modal_title h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.player_image {
+  width: 40px;
+  height: 40px;
+}

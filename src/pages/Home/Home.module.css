@@ -1,0 +1,60 @@
+.main {
+  background-color: rgba(2, 57, 134, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main_image {
+  display: block;
+  height: fit-content;
+  width: 500px;
+}
+
+.main_info {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main_title p {
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.main_title h1 {
+  text-align: center;
+}
+
+.main_advantages {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left:0;
+  padding: 20px;
+}
+
+.main_advantages li {
+  background-color: white;
+  color: black;
+  width: 25%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid gray;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+  }
+}
